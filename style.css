@@ -52,3 +52,16 @@ body {
     color: #fff;
     background: #0f0;
 }
+
+.task-container {
+    width: 350px;
+    background-color: #fff;
+    height: 70px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 30px;
+
+    margin-top: 20px;
+    padding: 15px 20px;
+}
+
