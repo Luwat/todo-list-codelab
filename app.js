@@ -27,4 +27,12 @@ addBtn.addEventListener('click', function() {
     }
 
     inputTask.value = '';
+
+    checkBtn.addEventListener('click', function () {
+        
+    })
+
+    deleteBtn.addEventListener('click', function () {
+        
+    })
 })
