@@ -29,10 +29,10 @@ addBtn.addEventListener('click', function() {
     inputTask.value = '';
 
     checkBtn.addEventListener('click', function () {
-        
+        checkBtn.parentElement.style.textDecoration = 'line-through'
     })
 
-    deleteBtn.addEventListener('click', function () {
-        
+    deleteBtn.addEventListener('click', function (e) {
+        e.target.parentElement.parentElement.remove();
     })
 })
